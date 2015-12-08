@@ -10,7 +10,7 @@
 #import <AFNetworking.h>
 #import <AFNetworking/UIWebView+AFNetworking.h>
 #import "ZHHttpManager.h"
-#import "ZHHttpManager+Cache.h"
+#import "ZHHttpManager+DataBase.h"
 
 @interface ViewController ()
 
@@ -47,8 +47,8 @@
 //        
 //    }];
     
-//    NSLog(@"%@",NSHomeDirectory());
-//    
+    NSLog(@"%@",NSHomeDirectory());
+//
 //    ZHHttpManager *manager = [[ZHHttpManager alloc] init];
 //    //必须强引用不然，对象会立即被销毁
 ////    self.manager = manager;
@@ -98,6 +98,22 @@
 //    
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(networkChange:) name:@"kReachabilityStatusChange" object:nil];
     
+//    [ZHHttpManager BGETFromCache:path parameters:dict success:^(ZHRequestOperation * _Nullable operation, id  _Nullable responseObject) {
+//        
+//        NSLog(@"%@",responseObject);
+//        
+//    } failure:^(ZHRequestOperation * _Nullable operation, NSError * _Nonnull error) {
+//        
+//        
+//    }];
+    
+    [ZHHttpManager BPOSTFromCache:path parameters:dict success:^(ZHRequestOperation * _Nullable operation, id  _Nullable responseObject) {
+        
+        NSLog(@"%@",responseObject);
+        
+    } failure:^(ZHRequestOperation * _Nullable operation, NSError * _Nonnull error) {
+        
+    }];
     
 }
 

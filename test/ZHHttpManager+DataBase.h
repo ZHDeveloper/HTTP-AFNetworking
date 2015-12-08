@@ -8,7 +8,7 @@
 
 #import "ZHHttpManager.h"
 
-@interface ZHHttpManager (Cache)
+@interface ZHHttpManager (DataBase)
 
 /*!
  *  @author zhihua, 15-12-08 10:12:46
@@ -21,7 +21,7 @@
  *  @param success 请求成功的回调
  *  @param failure 请求失败的回调
  */
-+ (void)BGETFromCache:(NSString * _Nonnull)url parameters:params isFromCache:(BOOL)formCache success:(ResponseSuccess _Nullable)success failure:(ResponseFailure _Nullable)failure;
++ (void)BGETFromCache:(NSString * _Nonnull)url parameters:params success:(ResponseSuccess _Nullable)success failure:(ResponseFailure _Nullable)failure;
 
 /*!
  *  @author zhihua, 15-12-08 11:12:54
@@ -33,7 +33,7 @@
  *  @param success 请求成功的回调
  *  @param failure 请求失败的回调
  */
-+ (void)BPOSTFromCache:(NSString * _Nonnull)url parameters:params isFromCache:(BOOL)formCache success:(ResponseSuccess _Nullable)success failure:(ResponseFailure _Nullable)failure;
++ (void)BPOSTFromCache:(NSString * _Nonnull)url parameters:params success:(ResponseSuccess _Nullable)success failure:(ResponseFailure _Nullable)failure;
 
 
 @end

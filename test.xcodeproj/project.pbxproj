@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5302BBB51C16CCFA00978217 /* ZHHttpManager+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302BBB41C16CCFA00978217 /* ZHHttpManager+Cache.m */; };
+		5302BBB51C16CCFA00978217 /* ZHHttpManager+DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302BBB41C16CCFA00978217 /* ZHHttpManager+DataBase.m */; };
 		535142661C1665FE00599117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 535142651C1665FE00599117 /* main.m */; };
 		535142691C1665FE00599117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 535142681C1665FE00599117 /* AppDelegate.m */; };
 		5351426C1C1665FE00599117 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351426B1C1665FE00599117 /* ViewController.m */; };
@@ -40,8 +40,8 @@
 /* Begin PBXFileReference section */
 		05AC77204D69F4D7ABA35E45 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		248001209B6A21228CEE06A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		5302BBB31C16CCFA00978217 /* ZHHttpManager+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZHHttpManager+Cache.h"; sourceTree = "<group>"; };
-		5302BBB41C16CCFA00978217 /* ZHHttpManager+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZHHttpManager+Cache.m"; sourceTree = "<group>"; };
+		5302BBB31C16CCFA00978217 /* ZHHttpManager+DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZHHttpManager+DataBase.h"; sourceTree = "<group>"; };
+		5302BBB41C16CCFA00978217 /* ZHHttpManager+DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZHHttpManager+DataBase.m"; sourceTree = "<group>"; };
 		535142611C1665FE00599117 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		535142651C1665FE00599117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		535142671C1665FE00599117 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 				535142641C1665FE00599117 /* Supporting Files */,
 				53F81D9E1C1679AD00FA880B /* ZHHttpManager.h */,
 				53F81D9F1C1679AD00FA880B /* ZHHttpManager.m */,
-				5302BBB31C16CCFA00978217 /* ZHHttpManager+Cache.h */,
-				5302BBB41C16CCFA00978217 /* ZHHttpManager+Cache.m */,
+				5302BBB31C16CCFA00978217 /* ZHHttpManager+DataBase.h */,
+				5302BBB41C16CCFA00978217 /* ZHHttpManager+DataBase.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5351426C1C1665FE00599117 /* ViewController.m in Sources */,
-				5302BBB51C16CCFA00978217 /* ZHHttpManager+Cache.m in Sources */,
+				5302BBB51C16CCFA00978217 /* ZHHttpManager+DataBase.m in Sources */,
 				535142691C1665FE00599117 /* AppDelegate.m in Sources */,
 				535142661C1665FE00599117 /* main.m in Sources */,
 				53F81DA01C1679AD00FA880B /* ZHHttpManager.m in Sources */,
