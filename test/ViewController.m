@@ -107,13 +107,13 @@
 //        
 //    }];
     
-    [ZHHttpManager BPOSTFromCache:path parameters:dict success:^(ZHRequestOperation * _Nullable operation, id  _Nullable responseObject) {
-        
-        NSLog(@"%@",responseObject);
-        
-    } failure:^(ZHRequestOperation * _Nullable operation, NSError * _Nonnull error) {
-        
-    }];
+//    [ZHHttpManager BPOSTFromCache:path parameters:dict success:^(ZHRequestOperation * _Nullable operation, id  _Nullable responseObject) {
+//        
+//        NSLog(@"%@",responseObject);
+//        
+//    } failure:^(ZHRequestOperation * _Nullable operation, NSError * _Nonnull error) {
+//        
+//    }];
     
 }
 
