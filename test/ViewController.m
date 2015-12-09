@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import <AFNetworking.h>
 #import <AFNetworking/UIWebView+AFNetworking.h>
-#import "ZHHttpManager.h"
 #import "ZHHttpManager+DataBase.h"
 
 @interface ViewController ()
@@ -17,7 +16,6 @@
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @property (nonatomic,strong) ZHHttpManager *manager;
-
 
 @end
 
@@ -125,7 +123,6 @@
     [self.manager stopMonitorReachability];
     self.manager = nil;
 }
-
 
 
 @end
