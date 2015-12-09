@@ -7,7 +7,7 @@ s.homepage     = "https://github.com/ZHDeveloper/HTTP-AFNetworking-"
 s.license      = "MIT"
 s.author       = { "ZHCoder" => "zhcoder2011@gmail.com" }
 s.platform     = :ios, "7.0"
-s.source       = { :git => "https://github.com/ZHDeveloper/HTTP-AFNetworking-.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/ZHDeveloper/HTTP-AFNetworking-.git", :tag => "0.0.2" }
 s.source_files  = "ZHHttpManager", "*.{h,m}"
 s.requires_arc = true
 s.dependency "AFNetworking", "~> 2.6.3"
